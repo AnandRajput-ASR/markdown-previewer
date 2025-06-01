@@ -1,27 +1,75 @@
-# MarkdownPreviewer
+Here's a clean and professional `README.md` file for your **Markdown Previewer** Angular project:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
+---
 
-## Development server
+### 📘 `README.md` for *Markdown Previewer*
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```markdown
+# 📝 Markdown Previewer
 
-## Code scaffolding
+A simple Angular app that lets you type Markdown and instantly see the HTML preview.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🔧 Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Live preview of Markdown content
+- Built with Angular
+- Supports GitHub Flavored Markdown (GFM)
+- Styled for readability
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🚀 Getting Started
 
-## Running end-to-end tests
+### 1️⃣ Clone the Repository
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone https://github.com/AnandRajput-ASR/markdown-previewer.git
+cd markdown-previewer
+```
 
-## Further help
+### 2️⃣ Install Dependencies
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+npm install
+```
+
+### 3️⃣ Run the App
+
+```bash
+ng serve
+```
+
+Then open [http://localhost:4200](http://localhost:4200) in your browser.
+
+---
+
+## 🔐 API & Security
+
+No external API is required. All Markdown processing is done using the `marked` package locally.
+
+---
+
+## 🧪 Testing
+
+To run unit tests:
+
+```bash
+ng test
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- Angular 12+
+- TypeScript
+- SCSS
+- [Marked](https://github.com/markedjs/marked) for Markdown parsing
+
+---
+
+## 🙌 Acknowledgements
+
+- [MarkedJS](https://github.com/markedjs/marked) – Markdown parser and compiler

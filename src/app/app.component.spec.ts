@@ -1,6 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { MarkdownPreviewComponent } from './markdown-preview/markdown-preview.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -9,7 +10,8 @@ describe('AppComponent', () => {
         RouterTestingModule
       ],
       declarations: [
-        AppComponent
+        AppComponent,
+        MarkdownPreviewComponent
       ],
     }).compileComponents();
   });
@@ -26,10 +28,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('markdown-previewer');
   });
 
-  it('should render title', () => {
+  it('should render markdown-preview component', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('markdown-previewer app is running!');
+    expect(compiled.querySelector('app-markdown-preview')).toBeTruthy();
   });
 });

@@ -1,0 +1,35 @@
+/* Make container fill full viewport and align children horizontally */
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  gap: 1rem; /* space between textarea and preview */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Textarea styling */
+textarea {
+  flex: 1;               /* take equal space */
+  font-size: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  min-width: 300px;
+  min-height: 80vh;      /* tall enough */
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+/* Preview styling */
+.preview {
+  flex: 1;               /* take equal space */
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f9f9f9;
+  overflow-y: auto;
+  min-height: 80vh;      /* tall enough */
+  box-sizing: border-box;
+}
