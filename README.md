@@ -1,10 +1,3 @@
-Here's a clean and professional `README.md` file for your **Markdown Previewer** Angular project:
-
----
-
-### 📘 `README.md` for *Markdown Previewer*
-
-```markdown
 # 📝 Markdown Previewer
 
 A simple Angular app that lets you type Markdown and instantly see the HTML preview.
